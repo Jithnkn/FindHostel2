@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/bground"
+tools:context=".Homepage">
+
+
+<EditText
+    android:id="@+id/searchbar"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="#FFFFFF"
+    android:hint="Place"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.47"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.143"
+    tools:ignore="MissingConstraints" />
+
+
+<TextView
+    android:id="@+id/hi"
+    android:layout_width="159dp"
+    android:layout_height="60dp"
+    android:text="Hi"
+    android:textColor="#FFFFFF"
+    android:textSize="30sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.063"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.055" />
+
+
+<Button
+    android:id="@+id/okbutton"
+    android:layout_width="86dp"
+    android:layout_height="37dp"
+    android:background="#F5F5F5"
+
+    android:text="OK"
+    android:textColor="#555581"
+    android:textSize="21sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.958" />
+
+
+    <ImageView
+        android:id="@+id/maleimage"
+        android:layout_width="159dp"
+        android:layout_height="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.386"
+        app:srcCompat="@drawable/male" />
+
+
+        <ImageView
+            android:id="@+id/femaleimage"
+            android:layout_width="168dp"
+            android:layout_height="165dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.798"
+            app:srcCompat="@drawable/female" />
+
+
+</android.support.constraint.ConstraintLayout>
