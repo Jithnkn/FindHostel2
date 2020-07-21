@@ -23,6 +23,7 @@ public class MaleHostelName extends AppCompatActivity {
     ListView list;
     String[] hostelnamekannur,hostelnametpba;
     ArrayList<String> hostel=new ArrayList<>();
+    
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
     @Override
